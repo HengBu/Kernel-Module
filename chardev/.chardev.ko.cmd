@@ -1,0 +1,1 @@
+cmd_/home/smile/Code/MyModule/chardev/chardev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/smile/Code/MyModule/chardev/chardev.ko /home/smile/Code/MyModule/chardev/chardev.o /home/smile/Code/MyModule/chardev/chardev.mod.o ;  true

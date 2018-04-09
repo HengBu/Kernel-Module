@@ -1,0 +1,1 @@
+cmd_/home/smile/Code/Kernel-Module/bio_test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/smile/Code/Kernel-Module/bio_test.ko /home/smile/Code/Kernel-Module/bio_test.o /home/smile/Code/Kernel-Module/bio_test.mod.o ;  true
